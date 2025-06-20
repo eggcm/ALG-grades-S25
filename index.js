@@ -2,7 +2,7 @@ let data = {}
 const p = document.getElementById('display-grade');
 
 
-Papa.parse("./ALG-grades-S25U.csv", {
+Papa.parse("./ALG-grades-S25G.csv", {
 	download: true,
     encoding: "utf-8",
     complete: function(results) {
